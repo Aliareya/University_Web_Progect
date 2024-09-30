@@ -1,9 +1,20 @@
-body#singup-login{
+body#singup{
     background-image: url(../images/signupbodybackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #A9BCD0;
+}
+body#login{
+    background-image: url(../images/login-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #A9BCD0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+
 }
 /* main container for signup page */
 
@@ -17,11 +28,26 @@ body#singup-login{
     flex-direction: column;
     justify-content: space-between;
 }
-
-form {
+.login-main-container{
+    width: 28%;
+    height: 500px;
+    background-color: #004799;
+    margin: 62px auto;
+    border-radius: 13px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+}
+
+#singup-form {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
 }
 
          /* End */
